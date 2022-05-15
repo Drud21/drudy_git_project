@@ -9,6 +9,8 @@ My new bike share git project
 ### Description
 This project is for a udacity course.  It demonstrates what I learned for git.
 
+So far, I've learned SQL and Python.  Now I'm learning Git.  I can't wait to use the skills for future data science projects!
+
 ### Files used
 I used bike share data from the following cities
 Chicago
