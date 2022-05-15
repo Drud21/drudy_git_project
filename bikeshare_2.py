@@ -78,11 +78,11 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     if city == 'Chicago':
-        df = pd.read_csv('./python_project/chicago.csv')
+        df = pd.read_csv('./chicago.csv')
     elif city == 'New York':
-        df = pd.read_csv('./python_project/new_york_city.csv')
+        df = pd.read_csv('./new_york_city.csv')
     elif city == 'Washington':
-        df = pd.read_csv('./python_project/washington.csv')
+        df = pd.read_csv('./washington.csv')
     else:
         print('Oh no, the person programing this doesn\'t know what they\'re doing!')
     #-----Create two new columns.  1 for month and 1 for day of the week-----
