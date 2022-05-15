@@ -103,24 +103,24 @@ def load_data(city, month, day):
     else:
         df = df[df['Start Day of Week'] == day]
     
-    print('Here are the first 5 rows of data you slected for city: {}, month: {}, day of the week: {}\n'\
+    print('Here are the first 10 rows of data you slected for city: {}, month: {}, day of the week: {}\n'\
         .format(city, month, day))
-    print(df.head())
+    print(df.head(10))
 
-    print('Here are the last 5 rows of data you slected for city: {}, month: {}, day of the week: {}\n'\
+    print('Here are the last 10 rows of data you slected for city: {}, month: {}, day of the week: {}\n'\
         .format(city, month, day))
-    print(df.tail())
+    print(df.tail(10))
     print('-'*40)
-
+    
     i = 0
-    j = 5
+    j = 10
     while True:
         try:
             cont = input('\nDo you want to see more data?  Enter yes or no. ').title()
             if cont == 'Yes':
                 print(df.iloc[i:j])
-                i += 5
-                j += 5
+                i += 10
+                j += 10
             elif cont == 'No':
                 break
             else:
