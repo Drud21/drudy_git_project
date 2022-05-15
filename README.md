@@ -15,6 +15,8 @@ Chicago
 New York City
 Washington
 
+You won't be able to see this data because I listed the files in .gitignore
+
 ### Credits
 This project was forked from udacity/pdsnd_github
 
