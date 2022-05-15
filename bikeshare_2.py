@@ -245,8 +245,15 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        while True:
+            restart = input('\nWould you like to restart? Enter yes or no.\n')
+            if restart.lower() == 'yes':
+                break
+            elif restart.lower() == 'no':
+                break
+            else:
+                print('Error: Type yes or no. You entered: {}'.format(restart))
+        if restart.lower() == 'no':
             break
 
 
