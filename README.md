@@ -13,5 +13,5 @@ Describe what your project is about and what it does
 Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I would also like to give credit to my first reviewer.  They pointed me to the Udacity Git styleguide.
 
