@@ -28,3 +28,5 @@ You won't be able to see this data because I listed the files in .gitignore
 ### Credits
 This project was forked from udacity/pdsnd_github
 
+I would also like to give credit to my first reviewer.  They pointed me to the Udacity Git styleguide.
+
